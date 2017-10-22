@@ -1,0 +1,14 @@
+elasticsearch:
+  transport:
+    ping_timeout: 60
+    nodes_sampler_interval: 60
+  index:
+    name: toto
+  ip: 127.0.0.1
+  port: 9300
+  cluster: docker-cluster
+  user:
+  password:
+  query:
+    limit:
+      max: 10000
